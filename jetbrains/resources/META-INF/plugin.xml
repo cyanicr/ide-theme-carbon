@@ -1,14 +1,23 @@
 <idea-plugin>
-    <id>com.fernandojimenez.mattecarbon.theme</id>
+    <id>com.cyanicr.carbon.theme</id>
     <name>Carbon</name>
-    <version>3.0.0</version>
-    <vendor email="luisfer.0793@gmail.com" url="https://github.com/luisfer0793">Luis Fernando Jiménez</vendor>
+    <version>3.1.0</version>
+    <vendor email="richard.baltariu@gmail.com" url="https://github.com/cyanicr">Richard Baltariu</vendor>
 
     <description><![CDATA[
-        A minimalist dark theme using comfortable UI colors.
+        A minimalist dark theme using comfortable UI colors.<br>
+        Fork of the original Carbon theme by Luis Fernando Jiménez
+        (<a href="https://github.com/luisfer0793">github.com/luisfer0793</a>).
     ]]></description>
 
     <change-notes><![CDATA[
+        <b>3.1.0</b>
+        <ul>
+            <li>Forked and moved into a multi-editor repository alongside a Zed port.</li>
+            <li>Islands UI support (2026.1+): enable "Islands UI for custom themes" in Advanced Settings.</li>
+        </ul>
+        <br>
+
         <b>3.0.0</b>
         <ul>
             <li>Fully support for 2019.3.x version.</li>
@@ -95,7 +104,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
-        <themeProvider id="550230d7-9636-4d03-9506-23e40b91bfb3" path="/matte_carbon_basics.theme.json"/>
+        <themeProvider id="a8b49fe0-cea4-4ace-8e67-2fbcaf077735" path="/matte_carbon_basics.theme.json"/>
     </extensions>
 
     <actions>

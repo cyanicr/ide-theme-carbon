@@ -1,7 +1,7 @@
 {
     "name": "Carbon",
     "dark": true,
-    "author": "Luis Fernando Jimenez",
+    "author": "Richard Baltariu (original by Luis Fernando Jiménez)",
     "editorScheme": "/themes/Carbon.xml",
     "ui": {
         "*": {
@@ -27,19 +27,30 @@
             "acceleratorForeground": "#abb9bc",
             "acceleratorSelectionForeground": "#abb9bc"
         },
-
+        "Island": {
+            "arc": 20,
+            "arc.compact": 16,
+            "borderArcLength": 14,
+            "borderArcLength.compact": 10,
+            "borderWidth": 6,
+            "borderWidth.compact": 4,
+            "inactiveAlpha": 0.56
+        },
+        "MainWindow.background": "#1E2A3E",
+        "MainToolbar": {
+            "background": "#1E2A3E",
+            "inactiveBackground": "#1E2A3E"
+        },
         "ActionButton": {
             "hoverBackground": "26354f",
             "hoverBorderColor": "#074855",
             "pressedBackground": "#074855",
             "pressedBorderColor": "#074855"
         },
-
         "Borders": {
             "color": "#213047",
             "ContrastBorderColor": "#213047"
         },
-
         "Button": {
             "startBackground": "#074855",
             "endBackground": "#074855",
@@ -55,7 +66,6 @@
                 "focusColor": "#778282"
             }
         },
-
         "ComboBox": {
             "nonEditableBackground": "#1e2a3e",
             "background": "#1e2a3e",
@@ -65,13 +75,10 @@
                 "nonEditableBackground": "#1e2a3e"
             }
         },
-
         "ComboPopup.border": "1,1,1,1,213047",
-
         "CompletionPopup": {
             "matchForeground": "#02858E"
         },
-
         "Component": {
             "errorFocusColor": "#bf616a",
             "focusColor": "#0c9294",
@@ -82,49 +89,39 @@
             "infoForeground": "#bac8cb",
             "warningFocusColor": "#8f9544"
         },
-
         "Counter": {
             "background": "#0A677A",
             "foreground": "#bac8cb"
         },
-
         "DefaultTabs": {
             "underlineColor": "#2aa198",
             "hoverBackground": "#1E2A3E",
             "inactiveUnderlineColor": "#446a73"
         },
-
         "DragAndDrop": {
             "areaForeground": "#bac8cb",
             "areaBackground": "#1E2A3E",
             "areaBorderColor": "#213047"
         },
-
         "Editor": {
             "background": "#172030",
             "foreground": "#bac8cb",
             "shortcutForeground": "#2aa198"
         },
-
         "EditorPane.inactiveBackground": "#1E2A3E",
-
         "EditorTabs": {
             "underlineColor": "#2aa198",
             "borderColor": "#213047",
             "underlinedTabBackground": "#1E2A3E",
             "hoverMaskColor": "#1E2A3E"
         },
-
         "FileColor": {
             "Yellow": "#1b2f41",
             "Rose": "#bf616a",
             "Green": "#112634"
         },
-
         "Group.disabledSeparatorColor": "#213047",
-
         "InplaceRefactoringPopup.borderColor": "#213047",
-
         "Link": {
             "activeForeground": "#0a7285",
             "hoverForeground": "#0a7285",
@@ -132,11 +129,8 @@
             "visitedForeground": "#0a7285",
             "secondaryForeground": "#75BAB5"
         },
-
         "Label.errorForeground": "#af304a",
-
         "NavBar.borderColor": "#213047",
-
         "Notification": {
             "background": "#1E2A3E",
             "borderColor": "#586E75",
@@ -160,7 +154,6 @@
                 "errorBorderColor": "#4d1c2b"
             }
         },
-
         "ParameterInfo": {
             "background": "#1E2A3E",
             "foreground": "#bac8cb",
@@ -168,7 +161,6 @@
             "currentOverloadBackground": "#1E2A3E",
             "currentParameterForeground": "#02858e"
         },
-
         "Plugins": {
             "Tab": {
                 "selectedForeground": "#bac8cb",
@@ -190,7 +182,6 @@
             },
             "lightSelectionBackground": "#1E2A3E"
         },
-
         "Popup": {
             "paintBorder": true,
             "borderColor": "#213047",
@@ -205,12 +196,10 @@
                 "borderInsets": "4,8,3,0"
             }
         },
-
         "PopupMenu": {
             "borderWidth": 1,
             "borderInsets": "1,1,1,1"
         },
-
         "ProgressBar": {
             "trackColor": "#1E2A3E",
             "progressColor": "#029098",
@@ -221,7 +210,6 @@
             "passedColor": "#2cb0a7",
             "passedEndColor": "#026d76"
         },
-
         "SearchEverywhere": {
             "Header.background": "#1E2A3E",
             "Tab": {
@@ -234,23 +222,18 @@
             },
             "Advertiser.foreground": "#bac8cb"
         },
-
         "SearchMatch": {
             "startBackground": "#e1e797",
             "endBackground": "#e1e797"
         },
-
         "SpeedSearch": {
             "foreground": "#bac8cb",
             "borderColor": "#213047",
             "background": "#1E2A3E",
             "errorForeground": "#e0555e"
         },
-
         "SplitPane.background": "#172030",
-
         "StatusBar.borderColor": "#213047",
-
         "Table": {
             "foreground": "#bac8cb",
             "background": "#172030",
@@ -266,24 +249,20 @@
             "lightSelectionBackground": "#074855",
             "lightSelectionInactiveBackground": "#063944"
         },
-
         "TabbedPane": {
             "hoverColor": "#1E2A3E",
             "underlineColor": "#0A677A",
             "disabledUnderlineColor": "#5e5b6b",
             "contentAreaColor": "#213047"
         },
-
         "ToggleButton": {
             "onBackground": "#0A677A",
             "borderColor": "#213047"
         },
-
         "ToolTip": {
             "background": "#172030",
             "Actions.background": "#1E2A3E"
         },
-
         "ToolWindow": {
             "Header": {
                 "background": "#1E2A3E",
@@ -298,28 +277,24 @@
             "Button": {
                 "selectedBackground": "#1E2A3E",
                 "hoverBackground": "#1E2A3E"
-            }
+            },
+            "Stripe.background": "#1E2A3E"
         },
-
         "Tree.rowHeight": 22,
-
         "VersionControl": {
             "GitLog.localBranchIconColor": "#02858e",
             "GitLog.remoteBranchIconColor": "#214760",
             "Log.Commit.currentBranchBackground": "#1e2a3e",
             "FileHistory.Commit.selectedBranchBackground": "#3f5d6e"
         },
-
         "Viewport.background": "#172030",
-
         "WelcomeScreen.background": "#172030",
-
         "WelcomeScreen": {
             "Projects.selectionInactiveBackground": "#172030",
             "separatorColor": "#172030"
-        }
+        },
+        "StatusBar.background": "#1E2A3E"
     },
-
     "icons": {
         "ColorPalette": {
             "Actions.Red": "#ff4262",

@@ -1,0 +1,7 @@
+id = "carbon-theme"
+name = "Carbon"
+version = "0.1.0"
+schema_version = 1
+authors = ["Richard Baltariu <richard.baltariu@gmail.com>"]
+description = "A minimalist dark theme using comfortable UI colors. Fork of the Carbon theme by Luis Fernando Jiménez."
+repository = "https://github.com/cyanicr/ide-theme-carbon"

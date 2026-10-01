@@ -1,0 +1,15 @@
+Carbon Theme
+Copyright (c) 2026 Richard Baltariu
+
+This project is a fork of the Carbon theme for JetBrains IDEs by
+Luis Fernando Jiménez (https://github.com/luisfer0793/theme-carbon,
+JetBrains Marketplace plugin "Carbon", id com.fernandojimenez.mattecarbon.theme),
+which is distributed under the Apache License, Version 2.0:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+The original theme files (the JetBrains UI theme and editor color scheme) have
+been modified in this fork: the plugin identity and authorship were changed,
+Islands UI support was added, and the palette was ported to the Zed editor.
+Those modifications and all other contributions in this repository are
+licensed under the MIT License (see LICENSE).
