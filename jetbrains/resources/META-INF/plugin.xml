@@ -5,7 +5,8 @@
     <vendor email="richard.baltariu@gmail.com" url="https://github.com/cyanicr">Richard Baltariu</vendor>
 
     <description><![CDATA[
-        A minimalist dark theme using comfortable UI colors.<br>
+        A minimalist theme using comfortable UI colors, in dark and light variants,
+        with support for the Islands UI.<br>
         Fork of the original Carbon theme by Luis Fernando Jiménez
         (<a href="https://github.com/luisfer0793">github.com/luisfer0793</a>).
     ]]></description>
@@ -15,6 +16,7 @@
         <ul>
             <li>Forked and moved into a multi-editor repository alongside a Zed port.</li>
             <li>Islands UI support (2026.1+): enable "Islands UI for custom themes" in Advanced Settings.</li>
+            <li>Brought back the light theme as "Carbon Light (Beta)", updated for current IDE versions.</li>
         </ul>
         <br>
 
@@ -105,6 +107,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <themeProvider id="a8b49fe0-cea4-4ace-8e67-2fbcaf077735" path="/matte_carbon_basics.theme.json"/>
+        <themeProvider id="a5469738-2b51-4568-9979-3afbd09574dd" path="/carbon_light.theme.json"/>
     </extensions>
 
     <actions>
