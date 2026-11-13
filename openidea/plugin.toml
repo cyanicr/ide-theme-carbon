@@ -1,4 +1,3 @@
-# A theme plugin is data only: no wasm, no capabilities, nothing to compile.
 id = "cyanicr.carbon"
 name = "Carbon"
 version = "0.1.0"
