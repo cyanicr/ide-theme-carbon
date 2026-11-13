@@ -1,0 +1,14 @@
+# A theme plugin is data only: no wasm, no capabilities, nothing to compile.
+id = "cyanicr.carbon"
+name = "Carbon"
+version = "0.1.0"
+description = "A minimalist theme using comfortable UI colors. Port of the Carbon theme for JetBrains IDEs by Luis Fernando Jiménez."
+authors = ["Richard Baltariu", "Luis Fernando Jiménez (original Carbon theme)"]
+license = "MIT"
+homepage = "https://github.com/cyanicr/ide-theme-carbon"
+categories = ["themes"]
+engines.openidea = "^1.0"
+
+[[contributes.themes]]
+path = "themes/carbon.theme.json"
+editor-scheme = "themes/carbon.scheme.json"
